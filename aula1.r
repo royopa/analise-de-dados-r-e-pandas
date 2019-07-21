@@ -31,3 +31,8 @@ unique(aulas$section_id)
 
 # length conta a quantidade de registros
 length(unique(aulas$section_id))
+
+
+# https://www.ibpad.com.br/blog/analise-de-dados/prophet-vs-forecast-vs-mafs-qual-o-melhor-pacote-para-series-temporais/
+
+

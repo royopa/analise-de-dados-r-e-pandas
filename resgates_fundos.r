@@ -1,8 +1,20 @@
-install.packages('curl')
+install.packages("curl")
 install.packages("data.table")
+install.packages("mafs")
+install.packages("prophet")
+install.packages("cranlogs")
+install.packages("tidyverse")
+install.packages("lubridate")
+
 
 library(jsonlite)
 library(data.table)
+library(mafs)
+library(prophet)
+library(cranlogs)
+library(tidyverse)
+library(lubridate)
+
 
 # Keep this key secret!
 morph_api_key <- "O3C08GbWY2DaZ2U2Ec22"
